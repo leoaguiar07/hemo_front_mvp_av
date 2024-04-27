@@ -31,7 +31,7 @@ Busque doadores cadastrados no sistema próximos aos hemocentros ou próximo a u
 
 Projeto desenvolvido para atender ao MVP da disciplina de Desenvolvimento Full Stack Avançado (PUC-RIO).
 
-⚠️ Este projeto é divido em três partes, conforme <a href="#-arquitetura">Arquitetura</a> mostrada abaixo.<br/>
+⚠️ Este projeto é divido em três partes, conforme <a href="#arquitetura">Arquitetura</a> mostrada abaixo.<br/>
 
 ---
 
@@ -155,7 +155,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Autor
 
- <img style="border-radius: 50%;"  src="https://avatars.githubusercontent.com/u/131842850?s=400&amp;u=85e806ce0a66f202396de3ac457dc3d768f41e3f&amp;v=4" width="100" height="100" alt="@leoaguiar07">
+ <img src="https://avatars.githubusercontent.com/u/131842850?v=4" alt="@leoaguiar07" size="100" height="100" width="100" data-view-component="true" class="avatar circle">
  <br />
  <sub><b>Léo Aguiar</b></sub></a> 
  <br /><br />
