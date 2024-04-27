@@ -52,8 +52,8 @@ Projeto desenvolvido para atender ao MVP da disciplina de Desenvolvimento Full S
 
 
 <div align="center">
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/home.png" width="550" />
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/hemo_full.png" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/home.png" width="500" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/hemo_full.png" width="500" />
 </div>
 
 <div align="center">
@@ -155,7 +155,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Autor
 
- <img src="https://avatars.githubusercontent.com/u/131842850?v=4" alt="@leoaguiar07" size="100" height="100" width="100" data-view-component="true" class="avatar circle">
+ <img src="https://avatars.githubusercontent.com/u/131842850?v=4" alt="@leoaguiar07" size="100" height="100" width="100" data-view-component="true" class="avatar circle" style="border-radius: 50%;">
  <br />
  <sub><b>Léo Aguiar</b></sub></a> 
  <br /><br />
