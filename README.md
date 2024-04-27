@@ -51,8 +51,8 @@ Projeto desenvolvido para atender ao MVP da disciplina de Desenvolvimento Full S
 
 
 <div align="center">
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Home.jpg" width="550" />
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Hemo_full.jpg" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Home.png" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Hemo_full.png" width="550" />
 </div>
 
 <div align="center">
