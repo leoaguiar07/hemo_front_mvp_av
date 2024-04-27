@@ -52,8 +52,8 @@ Projeto desenvolvido para atender ao MVP da disciplina de Desenvolvimento Full S
 
 
 <div align="center">
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/home.png" width="500" />
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/hemo_full.png" width="500" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/home.png" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/hemo_full.png" width="550" />
 </div>
 
 <div align="center">
@@ -149,7 +149,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 ---
 
