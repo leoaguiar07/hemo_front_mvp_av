@@ -129,13 +129,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![My Skills](https://skillicons.dev/icons?i=python,django,sqlite&perline=3)](https://skillicons.dev)
 
 
-<a href="https://app.getpostman.com/run-collection/27dc730daa9ea47cfa3e" rel="nofollow"><img src="https://camo.githubusercontent.com/af5915f48d85979b2b30d477f607886068eff975fa1bd6c93c7431b731648f77/68747470733a2f2f72756e2e7073746d6e2e696f2f627574746f6e2e737667" alt="Run in Postman" data-canonical-src="https://run.pstmn.io/button.svg" style="max-width: 100%;"></a>
-
 #### **API (C)**  
 
 [![My Skills](https://skillicons.dev/icons?i=python,flask&perline=4)](https://skillicons.dev)
 
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+#### **Utilitários**
 
 -   API:  **[ViaCep API](https://https://viacep.com.br/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
