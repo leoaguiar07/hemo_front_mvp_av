@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Hemo" />
+    <title>Hemo</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--bootstrap -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+	<!-- Material Design Lite CSS -->
+	<link href="assets/plugins/material/material.min.css" rel="stylesheet" >
+	<link href="assets/css/material_style.css" rel="stylesheet">
+	<!-- Theme Styles -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />	
+    <link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/pages/formlayout.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="assets/img/favicon.ico" /> 
+ </head>
+ <!-- END HEAD -->
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-color chat-sidebar-open white-sidebar-color logo-white"></body>
+    <div class="page-wrapper">
+        <!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+            <div class="page-header-inner ">
+                <!-- logo start -->
+                <div class="page-logo">
+                    <a href="index.html">
+                    <img alt="" src="assets/img/logo.png">
+                    <span class="logo-default" >Hemo</span> </a>
+                </div>
+                <!-- logo end -->
+				<ul class="nav navbar-nav navbar-left in">
+					<li><a href="#" class="menu-toggler sidebar-toggler font-size-20"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+				</ul>
+				 <ul class="nav navbar-nav navbar-left in">
+				 	<li class="dropdown dropdown-extended dropdown-notification" >
+                            <a href="javascript:;" class="dropdown-toggle app-list-icon font-size-20" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="fa fa-th" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu app-icon">
+                            	<li class="app-dropdown-header">
+                                    <p><span class="bold">Applicações</span></p>
+                                </li>
+                                <li>
+                                    <ul class="dropdown-menu-list app-icon-dropdown" data-handle-color="#637283">
+										<li>
+											<a href="list_doadores.html" class="patient-icon">
+											<i class="material-icons">invert_colors</i>
+											<span class="block">Add Coleta</span>
+											</a>
+										</li>
+										<li>
+											<a href="add_doador.html" class="doctor-icon">
+											<i class="material-icons">people</i>
+											<span class="block">Add Doador</span>
+											</a>
+										</li>
+										<li>
+											<a href="add_hemocentro.html" class="map-icon">
+											<i class="material-icons">local_hospital</i>
+											<span class="block">Add Hemo</span>
+											</a>
+										</li>
+										
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left in">
+                	<!-- start full screen button -->
+                    <li><a href="javascript:;" class="fullscreen-click font-size-20"><i class="fa fa-arrows-alt"></i></a></li>
+                    <!-- end full screen button -->
+                </ul>
+                <!-- start mobile menu -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span></span>
+                </a>
+               <!-- end mobile menu -->
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- start page container -->
+        <div class="page-container">
+ 			<!-- start sidebar menu -->
+ 			<div class="sidebar-container">
+                <div class="sidemenu-container navbar-collapse collapse fixed-menu">
+                   <div id="remove-scroll" class="left-sidemenu">
+                       <ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                           <li class="sidebar-toggler-wrapper hide">
+                               <div class="sidebar-toggler">
+                                   <span></span>
+                               </div>
+                           </li>
+                           <li class="nav-item">
+                               <a href="index.html" class="nav-link nav-toggle">
+                                   <i class="material-icons">dashboard</i>
+                                   <span class="title">Dashboard</span>
+                               </a>
+                           </li>                        
+                           <li class="nav-item  ">
+                               <a href="#" class="nav-link nav-toggle"> <i class="material-icons">invert_colors</i>
+                                   <span class="title">Coletas</span> <span class="arrow"></span>
+                               </a>
+                               <ul class="sub-menu">
+                                   <li class="nav-item  ">
+                                       <a href="list_coletas.html" class="nav-link "> <span class="title">Coletas</span>
+                                       </a>
+                                   </li>
+                                   <li class="nav-item  ">
+                                       <a href="list_doadores.html" class="nav-link "> <span class="title">Add Coleta</span>
+                                       </a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="nav-item  ">
+                               <a href="#" class="nav-link nav-toggle"> <i class="material-icons">people</i>
+                                   <span class="title">Doadores</span> <span class="arrow"></span>
+                               </a>
+                               <ul class="sub-menu">
+                                   <li class="nav-item  ">
+                                       <a href="list_doadores.html" class="nav-link "> <span class="title">Doadores</span>
+                                       </a>
+                                   </li>
+                                   <li class="nav-item  ">
+                                       <a href="add_doador.html" class="nav-link "> <span class="title">Add Doador</span>
+                                       </a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="nav-item  ">
+                               <a href="#" class="nav-link nav-toggle"> <i class="material-icons">local_hospital</i>
+                                   <span class="title">Hemocentros</span> <span class="arrow"></span>
+                               </a>
+                               <ul class="sub-menu">
+                                   <li class="nav-item  ">
+                                       <a href="list_hemocentros.html" class="nav-link "> <span class="title">Hemocentros</span>
+                                       </a>
+                                   </li>
+                                   <li class="nav-item  ">
+                                       <a href="add_hemocentro.html" class="nav-link "> <span class="title">Add Hemocentros</span>
+                                       </a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="nav-item  ">
+                               <a href="#" class="nav-link nav-toggle"> <i class="material-icons">swap_horiz</i>
+                                   <span class="title">Movimentações</span> <span class="arrow"></span>
+                               </a>
+                               <ul class="sub-menu">
+                                   <li class="nav-item  ">
+                                       <a href="list_movimentacao.html" class="nav-link "> <span class="title">Movimentações</span>
+                                       </a>
+                                   </li>
+                                   <li class="nav-item  ">
+                                       <a href="add_movimentacao.html" class="nav-link "> <span class="title">Add Movimentações</span>
+                                       </a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="nav-item  ">
+                               <a href="#" class="nav-link nav-toggle"> <i class="material-icons">group</i>
+                                   <span class="title">Ferramentas</span> <span class="arrow"></span>
+                               </a>
+                               <ul class="sub-menu">
+                                   <li class="nav-item  ">
+                                       <a href="list_doadoreskm.html" class="nav-link "> <span class="title">Doadores/Hemos</span>
+                                       </a>
+                                   </li> 
+                               </ul>
+                           </li> 
+                       </ul>
+                   </div>
+               </div>
+           </div>
+            <!-- end sidebar menu -->
+			<!-- start page content -->
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <div class="page-bar">
+                        <div class="page-title-breadcrumb">
+                            <div class=" pull-left">
+                                <div class="page-title">Add Coleta</div>
+                            </div>
+                            <ol class="breadcrumb page-breadcrumb pull-right">
+                                <li><i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                                </li>
+                                <li><a class="parent-item" href="">Coletas</a>&nbsp;<i class="fa fa-angle-right"></i>
+                                </li>
+                                <li class="active">Add Coleta</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="card card-box">
+                                <div class="card-head">
+                                    <header>Informações</header>
+                                     <button id = "panel-button" 
+				                           class = "mdl-button mdl-js-button mdl-button--icon pull-right" 
+				                           data-upgraded = ",MaterialButton">
+				                           <i class = "material-icons">more_vert</i>
+				                        </button>
+				                        <ul class = "mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+				                           data-mdl-for = "panel-button">
+				                           <li class = "mdl-menu__item"><i class="material-icons">assistant_photo</i>Action</li>
+				                           <li class = "mdl-menu__item"><i class="material-icons">print</i>Another action</li>
+				                           <li class = "mdl-menu__item"><i class="material-icons">favorite</i>Something else here</li>
+				                        </ul>
+                                </div>
+                                <div class="card-body" id="bar-parent">
+                                    <form action="#" id="form_coleta" class="form-horizontal">
+                                        <div class="form-body">
+                                        <div class="form-group row">
+                                            <label class="control-label col-md-3"></label>
+                                            <div class="col-md-2">
+                                                <label for="nascimento" class="form-label">CPF</label>
+                                                <span class="required">*</span>
+                                                    <input type="text" id="cpf" data-required="1" placeholder="cpf" class="form-control" readonly required/> </div>
+                                        </div>
+
+                                        
+                                       
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3"></label>
+                                                <div class="col-md-5">
+                                                    <label for="nascimento" class="form-label">Nome</label>
+                                                    <span class="required">*</span>
+                                                    <input type="text" id="nome" data-required="1" placeholder="nome" class="form-control" readonly required/> </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3"></label>
+                                                <div class="col-md-3">
+                                                    <label for="hemocentro" class="form-label">Hemocentro</label>
+                                                    <span class="required">*</span>
+                                                    <select class="form-control" id="hemocentro" required>
+                                                        <option value="">Select...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3">
+                                                </label>
+                                            
+                                              <div class="col-md-2">
+                                                <label for="tipo" class="form-label">Tipo</label>
+                                                <span class="required">*</span>
+                                                <select class="form-control" id="tipo" placeholder="tipo"  required>
+                                                    <option value="">Selecione...</option>
+                                                    <option value="A">A</option>
+                                                    <option value="B">B</option>
+                                                    <option value="AB">AB</option>
+                                                    <option value="O">O</option>
+                                                </select>
+                                              </div>
+                                              <div class="col-md-1">
+                                                <label for="fator" class="form-label">Fator Rh</label>
+                                                <span class="required">*</span>
+                                                <select class="form-control" id="rh" placeholder="fator"  required>
+                                                    <option value="">Selecione...</option>
+                                                    <option value="+">+</option>
+                                                    <option value="-">-</option>
+                                                </select>
+                                              </div>
+                                            </div>                                         
+
+                                        
+
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3"></label>
+                                                <div class="col-md-5">
+                                                    <label for="obs" class="form-label">Observações</label>
+                                                    <textarea id="obs"  placeholder="obs." class="form-control" rows="5" ></textarea>
+                                                 </div>
+                                            </div>
+
+											<div class="form-actions">
+                                            <div class="row">
+                                                <div class="offset-md-3 col-md-9">
+                                                    <button type="submit" class="btn btn-info">Enviar</button>
+                                                    <button type="button" class="btn btn-default">Cancelar</button>
+                                                </div>
+                                               
+                                                <div id="Message" class="offset-md-3 col-md-5">
+                                                    <div class="alert alert-success mt-3" role="alert" style="display: none;">
+                                                        Dados enviados com sucesso.
+                                                    </div> 
+                                                </div>   
+                                          	</div>
+                                       		 </div>
+										</div>
+                                        
+                                    </form>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page container -->
+        <!-- start footer -->
+        <div class="page-footer">
+            <div class="page-footer-inner">  2024 &copy; Hemo
+            </div>
+            <div class="scroll-to-top">
+                <i class="material-icons">eject</i>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+    <!-- start js include path -->
+
+	<script type="module" src="assets/js/coleta_add.js"></script>
+
+    <script src="assets/plugins/jquery/jquery.min.js" ></script>
+	<script src="assets/plugins/popper/popper.min.js" ></script>
+    <script src="assets/plugins/jquery-blockui/jquery.blockui.min.js" ></script>
+	<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" ></script>
+    <!-- counterup -->
+    <script src="assets/plugins/counterup/jquery.waypoints.min.js" ></script>
+    <script src="assets/plugins/counterup/jquery.counterup.min.js" ></script>
+    <!-- Common js-->
+	<script src="assets/js/app.js" ></script>
+    <script src="assets/js/layout.js" ></script>
+    <script src="assets/js/theme-color.js" ></script>
+    <!-- material -->
+    <script src="assets/plugins/material/material.min.js"></script>
+    <!-- morris chart -->
+    <script src="assets/plugins/morris/morris.min.js" ></script>
+    <script src="assets/plugins/morris/raphael-min.js" ></script>
+    <script src="assets/js/pages/chart/morris/morris-home-data.js" ></script>
+    <!-- end js include path -->
+  </body>
+</html>

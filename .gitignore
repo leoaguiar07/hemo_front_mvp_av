@@ -1,0 +1,9 @@
+# Ignore arquivos relacionados às chaves de API
+.env
+
+# vscode
+/.vscode
+
+# Ignore os arquivos abaixo
+TODOs.txt
+MAPA.txt

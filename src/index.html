@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Hemo" />
+    <title>Hemo</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--bootstrap -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Material Design Lite CSS -->
+	<link href="assets/plugins/material/material.min.css" rel="stylesheet" >
+	<link href="assets/css/material_style.css" rel="stylesheet">
+	<!-- morris chart -->
+    <link href="assets/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+	<!-- Theme Styles -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" /> 
+    
+ </head>
+ <!-- END HEAD -->
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-color chat-sidebar-open white-sidebar-color logo-white"></body>
+    <div class="page-wrapper">
+        <!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+            <div class="page-header-inner ">
+                <!-- logo start -->
+                <div class="page-logo">
+                    <a href="index.html">
+                    <img alt="" src="assets/img/logo.png">
+                    <span class="logo-default" >Hemo</span> </a>
+                    <!--<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" focusable="false" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 16a6 6 0 006-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 006 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" clip-rule="evenodd"></path>
+                      </svg>-->
+                </div>
+                <!-- logo end -->
+				<ul class="nav navbar-nav navbar-left in">
+					<li><a href="#" class="menu-toggler sidebar-toggler font-size-20"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+				</ul>
+				 <ul class="nav navbar-nav navbar-left in">
+				 	<li class="dropdown dropdown-extended dropdown-notification" >
+                            <a href="javascript:;" class="dropdown-toggle app-list-icon font-size-20" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="fa fa-th" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu app-icon">
+                            	<li class="app-dropdown-header">
+                                    <p><span class="bold">Aplicações</span></p>
+                                </li>
+                                <li>
+                                    <ul class="dropdown-menu-list app-icon-dropdown" data-handle-color="#637283">
+										<li>
+											<a href="list_doadores.html" class="patient-icon">
+											<i class="material-icons">invert_colors</i>
+											<span class="block">Add Coleta</span>
+											</a>
+										</li>
+										<li>
+											<a href="add_doador.html" class="doctor-icon">
+											<i class="material-icons">people</i>
+											<span class="block">Add Doador</span>
+											</a>
+										</li>
+										<li>
+											<a href="add_hemocentro.html" class="map-icon">
+											<i class="material-icons">local_hospital</i>
+											<span class="block">Add Hemo</span>
+											</a>
+										</li>
+										
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left in">
+                	<!-- start full screen button -->
+                    <li><a href="javascript:;" class="fullscreen-click font-size-20"><i class="fa fa-arrows-alt"></i></a></li>
+                    <!-- end full screen button -->
+                </ul>
+                <!-- start mobile menu -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span></span>
+                </a>
+               <!-- end mobile menu -->
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- start page container -->
+        <div class="page-container">
+ 			<!-- start sidebar menu -->
+ 			<div class="sidebar-container">
+ 				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+	                <div id="remove-scroll" class="left-sidemenu">
+	                    <ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+	                        <li class="sidebar-toggler-wrapper hide">
+	                            <div class="sidebar-toggler">
+	                                <span></span>
+	                            </div>
+	                        </li>
+							<li class="nav-item">
+	                            <a href="index.html" class="nav-link nav-toggle">
+	                                <i class="material-icons">dashboard</i>
+	                                <span class="title">Dashboard</span>
+                                </a>
+	                        </li>                        
+	                        <li class="nav-item  ">
+	                            <a href="#" class="nav-link nav-toggle"> <i class="material-icons">invert_colors</i>
+	                                <span class="title">Coletas</span> <span class="arrow"></span>
+	                            </a>
+	                            <ul class="sub-menu">
+	                                <li class="nav-item  ">
+	                                    <a href="list_coletas.html" class="nav-link "> <span class="title">Coletas</span>
+	                                    </a>
+	                                </li>
+	                                <li class="nav-item  ">
+	                                    <a href="list_doadores.html" class="nav-link "> <span class="title">Add Coleta</span>
+	                                    </a>
+	                                </li>
+	                            </ul>
+	                        </li>
+							<li class="nav-item  ">
+	                            <a href="#" class="nav-link nav-toggle"> <i class="material-icons">people</i>
+	                                <span class="title">Doadores</span> <span class="arrow"></span>
+	                            </a>
+	                            <ul class="sub-menu">
+	                                <li class="nav-item  ">
+	                                    <a href="list_doadores.html" class="nav-link "> <span class="title">Doadores</span>
+	                                    </a>
+	                                </li>
+	                                <li class="nav-item  ">
+	                                    <a href="add_doador.html" class="nav-link "> <span class="title">Add Doador</span>
+	                                    </a>
+	                                </li>
+	                            </ul>
+	                        </li>
+							<li class="nav-item  ">
+	                            <a href="#" class="nav-link nav-toggle"> <i class="material-icons">local_hospital</i>
+	                                <span class="title">Hemocentros</span> <span class="arrow"></span>
+	                            </a>
+	                            <ul class="sub-menu">
+	                                <li class="nav-item  ">
+	                                    <a href="list_hemocentros.html" class="nav-link "> <span class="title">Hemocentros</span>
+	                                    </a>
+	                                </li>
+	                                <li class="nav-item  ">
+	                                    <a href="add_hemocentro.html" class="nav-link "> <span class="title">Add Hemocentros</span>
+	                                    </a>
+	                                </li>
+	                            </ul>
+	                        </li>
+                            <li class="nav-item  ">
+	                            <a href="#" class="nav-link nav-toggle"> <i class="material-icons">swap_horiz</i>
+	                                <span class="title">Movimentações</span> <span class="arrow"></span>
+	                            </a>
+	                            <ul class="sub-menu">
+	                                <li class="nav-item  ">
+	                                    <a href="list_movimentacao.html" class="nav-link "> <span class="title">Movimentações</span>
+	                                    </a>
+	                                </li>
+	                                <li class="nav-item  ">
+	                                    <a href="add_movimentacao.html" class="nav-link "> <span class="title">Add Movimentações</span>
+	                                    </a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item  ">
+	                            <a href="#" class="nav-link nav-toggle"> <i class="material-icons">group</i>
+	                                <span class="title">Ferramentas</span> <span class="arrow"></span>
+	                            </a>
+	                            <ul class="sub-menu">
+	                                <li class="nav-item  ">
+	                                    <a href="list_doadoreskm.html" class="nav-link "> <span class="title">Doadores/Hemos</span>
+	                                    </a>
+	                                </li> 
+	                            </ul>
+	                        </li> 
+	                    </ul>
+	                </div>
+                </div>
+            </div>
+			 <!-- end sidebar menu -->
+			<!-- start page content -->
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <div class="page-bar">
+                        <div class="page-title-breadcrumb">
+                            <div class=" pull-left">
+                                <div class="page-title">Dashboard</div>
+                            </div>
+                            <ol class="breadcrumb page-breadcrumb pull-right">
+                                <li><i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                                </li>
+                                <li class="active">Dashboard</li>
+                            </ol>
+                        </div>
+                    </div>
+					<!-- start widget -->
+					<div class="state-overview">
+						<div class="row">
+							<!-- /.col -->
+					        <div class="col-xl-3 col-md-6 col-12">
+								<div class="info-box bg-white" id="estoque_sangue">
+								  <span class="info-box-icon push-bottom bg-danger"><i class="material-icons">invert_colors</i></span>
+								  <div class="info-box-content">
+									<span class="info-box-text">Estoque de sangue</span>
+									<span class="info-box-number" id="sangue_atual_ideal"></span>
+									<div class="progress">
+									  <div class="progress-bar bg-danger" style="width: 0.08%"></div>
+									</div>
+									<span class="progress-description text-danger">
+										   
+										</span>
+								  </div>
+								  <!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							  </div>
+					       				
+					        <!-- /.col -->
+					        <div class="col-xl-3 col-md-6 col-12">
+					          <div class="info-box bg-white">
+					            <span class="info-box-icon push-bottom bg-warning"><i class="material-icons"> developer_board</i></span>
+					            <div class="info-box-content">
+					              <span class="info-box-text">Unidades Doadas (hoje)</span>
+					              <span class="info-box-number" id="sangue_hoje"></span>
+					              <div class="progress" id="progress_un_doadas">
+					                <div class="progress-bar bg-warning" style="width: 0%"></div>
+					              </div>
+					              <span class="progress-description" id="media_diaria_mes_passado">
+					                    40% Increase in 28 Days
+					                  </span>
+					            </div>
+					            <!-- /.info-box-content -->
+					          </div>
+					          <!-- /.info-box -->
+					        </div>
+
+							<div class="col-xl-3 col-md-6 col-12">
+								<div class="info-box bg-white">
+								  <span class="info-box-icon push-bottom bg-primary"><i class="material-icons">group</i></span>
+								  <div class="info-box-content">
+									<span class="info-box-text">Doações (Hoje)</span>
+									<span class="info-box-number" id="doacoes_hoje"></span>
+									<div class="progress">
+									  <div class="progress-bar bg-primary" style="width: 45%"></div>
+									</div>
+									<span class="progress-description">
+										  <!--45% Increase in 28 Days-->
+										</span>
+								  </div>
+								  <!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							  </div>
+					        
+					        <!-- /.col -->
+					        <div class="col-xl-3 col-md-6 col-12">
+					          <div class="info-box bg-white" id="progress_doadores">
+					            <span class="info-box-icon push-bottom bg-info"><i class="material-icons">people</i></span>
+					            <div class="info-box-content">
+					              <span class="info-box-text">Doadores cadastrados</span>
+					              <span class="info-box-number" id="total_doadores"></span>
+					              <div class="progress" >
+					                <div class="progress-bar bg-info" style="width: 50%"></div>
+					              </div>
+					              <span class="progress-description">
+					                    50% Increase in 28 Days
+					                  </span>
+					            </div>
+					            <!-- /.info-box-content -->
+					          </div>
+					          <!-- /.info-box -->
+					        </div>
+					        <!-- /.col -->
+					      </div>
+						</div>
+					<!-- end widget -->
+					<div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-box">
+                                <div class="card-head">
+                                    <header>Doações por tipo (semana)</header>
+                                    <div class="tools">
+                                        <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+										<a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+										<a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                                    </div>
+                                </div>
+                                <div class="card-body no-padding height-9">
+                                    
+                       				<div class="row">
+                                       	<div id="line_chart" class="full-width"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="row">
+		               	<div class="col-xl-6 col-md-12">
+		                     <div class="card">
+		                         <div class="card-block">
+		                             <div class="row text-center p-t-10">
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0"></h4>
+			                                <p class="text-muted"></p>
+			                            </div>
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0">Cadastro Doadores </h4>
+			                                <p class="text-muted">Quantidade (mês/ano)</p>
+			                            </div>
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0"></h4>
+			                                <p class="text-muted"></p>
+			                            </div>
+			                        </div>
+		                             <div id="area_line_chart" style="height: 200px; margin:30px"></div>
+		                             
+		                         </div>
+		                     </div>
+		                 </div>
+		                 <div class="col-xl-6 col-md-12">
+		                     <div class="card">
+		                         <div class="card-block">
+		                         <div class="row text-center p-t-10">
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0"></h4>
+			                                <p class="text-muted"></p>
+			                            </div>
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0">Estoque Ideal(a) x Atual(b) </h4>
+			                                <p class="text-muted">Unidades (meses)</p>
+			                            </div>
+			                            <div class="col-sm-4 col-6">
+			                                <h4 class="margin-0"></h4>
+			                                <p class="text-muted"></p>
+			                            </div>
+			                        </div>
+		                             <div id="bar-example" style="height: 200px; margin:30px"></div>
+		                         </div>
+	                             
+		                     </div>
+		                 </div>
+		               </div>
+                </div>
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page container -->
+        <!-- start footer -->
+        <div class="page-footer">
+            <div class="page-footer-inner"> 2024 &copy; Hemo
+            </div>
+            <div class="scroll-to-top">
+                <i class="material-icons">eject</i>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+    <!-- start js include path -->
+
+	<script type="module" src="assets/js/home.js"></script>
+
+    <script src="assets/plugins/jquery/jquery.min.js" ></script>
+	<script src="assets/plugins/popper/popper.min.js" ></script>
+    <script src="assets/plugins/jquery-blockui/jquery.blockui.min.js" ></script>
+	<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" ></script>
+    <!-- counterup -->
+    <script src="assets/plugins/counterup/jquery.waypoints.min.js" ></script>
+    <script src="assets/plugins/counterup/jquery.counterup.min.js" ></script>
+    <!-- Common js-->
+	<script src="assets/js/app.js" ></script>
+    <script src="assets/js/layout.js" ></script>
+    <script src="assets/js/theme-color.js" ></script>
+    <!-- material -->
+    <script src="assets/plugins/material/material.min.js"></script>
+    <!-- morris chart -->
+    <script src="assets/plugins/morris/morris.min.js" ></script>
+    <script src="assets/plugins/morris/raphael-min.js" ></script>
+    <script src="assets/js/pages/chart/morris/morris-home-data.js" ></script>
+    <!-- end js include path -->
+
+  </body>
+</html>
