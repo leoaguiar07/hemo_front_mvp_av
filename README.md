@@ -6,14 +6,15 @@
 
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
-  <a href="#-arquitetura">Arquitetura</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#sobre-o-projeto">Sobre</a> •
+ <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#layout">Layout</a> • 
+ <a href="#arquitetura">Arquitetura</a> • 
+ <a href="#como-executar-o-projeto---frontend">Como executar</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#como-contribuir-para-o-projeto">Contribuir</a> • 
+ <a href="#autor">Autor</a> • 
+ <a href="#licença">Licença</a>
 </p>
 
 
@@ -51,8 +52,8 @@ Projeto desenvolvido para atender ao MVP da disciplina de Desenvolvimento Full S
 
 
 <div align="center">
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Home.png" width="550" />
-    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/Hemo_full.png" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/home.png" width="550" />
+    <img alt="Hemo - Home" title="Hemo" src="./src/assets/img/hemo_full.png" width="550" />
 </div>
 
 <div align="center">
@@ -86,7 +87,7 @@ Certifique-se de ter o [Docker](https://docs.docker.com/engine/install/) instala
 
 ---
 
-## Como executar o projeto (Frontend)
+## Como executar o projeto - Frontend
 
 ### Modo de desenvolvimento
 
@@ -142,7 +143,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 💪 Como contribuir para o projeto
+## Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
